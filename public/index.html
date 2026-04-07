@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tornado Center — community management, aktywizacja i obsługa społeczności</title>
+  <meta name="description" content="Tornado Center wspiera właścicieli serwerów i społeczności online w aktywizacji użytkowników, ogłoszeniach, eventach i utrzymaniu hype'u." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="background-orb orb-1"></div>
+  <div class="background-orb orb-2"></div>
+  <div class="background-grid"></div>
+
+  <header class="site-header glass">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand">
+        <span class="brand-mark">TC</span>
+        <div>
+          <strong>Tornado Center</strong>
+          <small>Community growth & support</small>
+        </div>
+      </a>
+      <nav class="desktop-nav">
+        <a href="#about">O nas</a>
+        <a href="#plans">Pakiety</a>
+        <a href="#benefits">Dlaczego my</a>
+        <a href="#support">Pomoc</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn btn-ghost" data-open-auth="login">Zaloguj</button>
+        <button class="btn btn-primary" data-open-auth="register">Zarejestruj się</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container section">
+      <div class="hero-copy glass card-lg">
+        <span class="eyebrow">Nowoczesna obsługa społeczności online</span>
+        <h1>Budujemy społeczność. Utrzymujemy hype. Rozwijamy Twój serwer.</h1>
+        <p>
+          Tornado Center wspiera właścicieli serwerów społecznościowych, gamingowych i internetowych projektów
+          w komunikacji, aktywizacji użytkowników, organizacji eventów i wzmacnianiu zaangażowania.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#plans">Zobacz pakiety</a>
+          <a class="btn btn-ghost" href="#contact">Skontaktuj się z nami</a>
+          <button class="btn btn-soft" data-open-auth="register">Zarejestruj się</button>
+        </div>
+        <div class="hero-stats">
+          <div class="stat glass">
+            <strong>3 poziomy</strong>
+            <span>obsługi społeczności</span>
+          </div>
+          <div class="stat glass">
+            <strong>Role i panele</strong>
+            <span>klient / admin / super admin</span>
+          </div>
+          <div class="stat glass">
+            <strong>Portfel i plan</strong>
+            <span>proste przedłużanie usług</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-side glass card-lg">
+        <div class="liquid-card liquid-main">
+          <span>Status systemu</span>
+          <strong>Aktywny panel zamówień</strong>
+          <small>Dostęp po rejestracji i zalogowaniu</small>
+        </div>
+        <div class="stack-row">
+          <div class="liquid-card">
+            <span>Community</span>
+            <strong>Eventy</strong>
+          </div>
+          <div class="liquid-card">
+            <span>Support</span>
+            <strong>FAQ + pomoc</strong>
+          </div>
+        </div>
+        <div class="timeline glass">
+          <div><b>1.</b> Rejestracja i logowanie</div>
+          <div><b>2.</b> Wybór pakietu</div>
+          <div><b>3.</b> Zamówienie i panel klienta</div>
+          <div><b>4.</b> Przedłużanie planu z portfela</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <div class="section-head">
+        <span class="eyebrow">O nas</span>
+        <h2>Tornado Center dla serwerów, projektów internetowych i społeczności gamingowych</h2>
+        <p>
+          Tworzymy komunikację, porządkujemy ogłoszenia, organizujemy eventy i pomagamy utrzymywać aktywność na serwerach.
+          Nasza oferta jest skierowana do właścicieli community, którzy chcą rozwijać zaangażowaną społeczność.
+        </p>
+      </div>
+      <div class="grid-3">
+        <article class="glass card">
+          <h3>Ogłoszenia i komunikacja</h3>
+          <p>Tworzymy przejrzyste komunikaty, harmonogramy i announcements dopasowane do stylu Twojego community.</p>
+        </article>
+        <article class="glass card">
+          <h3>Eventy i aktywizacja</h3>
+          <p>Pomagamy rozruszać użytkowników przez eventy, akcje sezonowe i angażujące formaty społecznościowe.</p>
+        </article>
+        <article class="glass card">
+          <h3>Stała obsługa</h3>
+          <p>Prowadzimy społeczność długofalowo: od porządku komunikacyjnego po lepszy wizerunek serwera.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="plans" class="container section">
+      <div class="section-head">
+        <span class="eyebrow">Pakiety</span>
+        <h2>Wybierz poziom wsparcia dopasowany do Twojej społeczności</h2>
+      </div>
+      <div id="plansGrid" class="grid-3"></div>
+    </section>
+
+    <section class="container section dashboard-shell">
+      <div class="section-head">
+        <span class="eyebrow">System klientów i administratorów</span>
+        <h2>Jedna platforma do obsługi planów, portfeli, zamówień i wsparcia</h2>
+      </div>
+      <div id="authGate" class="glass card-lg auth-gate">
+        <h3>Zaloguj się, aby otworzyć swój panel</h3>
+        <p>Panel zamówień i dashboard są dostępne wyłącznie dla zarejestrowanych użytkowników.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" data-open-auth="login">Zaloguj się</button>
+          <button class="btn btn-soft" data-open-auth="register">Załóż konto</button>
+        </div>
+      </div>
+      <div id="dashboardApp" class="hidden"></div>
+    </section>
+
+    <section id="benefits" class="container section">
+      <div class="section-head">
+        <span class="eyebrow">Dlaczego my</span>
+        <h2>Profesjonalny wizerunek, większa aktywność i lepsza organizacja community</h2>
+      </div>
+      <div class="grid-3">
+        <div class="glass card"><h3>Zwiększanie aktywności</h3><p>Wspieramy regularną obecność użytkowników i ożywiamy serwer planowanymi działaniami.</p></div>
+        <div class="glass card"><h3>Lepszy wizerunek serwera</h3><p>Porządkujemy komunikację i pomagamy zbudować bardziej profesjonalne community.</p></div>
+        <div class="glass card"><h3>Indywidualne podejście</h3><p>Dopasowujemy styl ogłoszeń, plan eventów i obsługę do charakteru Twojego projektu.</p></div>
+      </div>
+    </section>
+
+    <section class="container section two-col">
+      <div id="community" class="glass card-lg">
+        <span class="eyebrow">Forum / strefa społeczności</span>
+        <h2>Prosty community board dla pytań, opinii i zgłoszeń</h2>
+        <p>Użytkownicy mogą zadawać pytania, zgłaszać problemy i wymieniać się opiniami z obsługą oraz innymi klientami.</p>
+        <div id="forumPosts" class="forum-list"></div>
+      </div>
+      <div id="support" class="glass card-lg">
+        <span class="eyebrow">Pomoc i obsługa klienta</span>
+        <h2>Szybki kontakt przed i po zakupie</h2>
+        <ul class="bullet-list">
+          <li>pomoc w wyborze pakietu</li>
+          <li>wsparcie techniczne i organizacyjne</li>
+          <li>kontakt z obsługą z poziomu panelu</li>
+          <li>jasna ścieżka od wejścia na stronę do zamówienia</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="faq" class="container section">
+      <div class="section-head">
+        <span class="eyebrow">FAQ</span>
+        <h2>Najczęściej zadawane pytania</h2>
+      </div>
+      <div id="faqList" class="faq-list"></div>
+    </section>
+
+    <section class="container section">
+      <div class="section-head">
+        <span class="eyebrow">Opinie klientów</span>
+        <h2>Rekomendacje w nowoczesnych szklanych kartach</h2>
+      </div>
+      <div class="grid-3">
+        <blockquote class="glass card testimonial"><p>„Dzięki Tornado Center nasza społeczność w końcu zaczęła żyć regularnie, a komunikacja wygląda profesjonalnie.”</p><footer>— właściciel community gamingowego</footer></blockquote>
+        <blockquote class="glass card testimonial"><p>„Największy plus to porządek, eventy i szybki kontakt. Panel klienta jest prosty i czytelny.”</p><footer>— administrator projektu internetowego</footer></blockquote>
+        <blockquote class="glass card testimonial"><p>„Portfel, historia zamówień i przedłużanie planu działają intuicyjnie. Bardzo dobry kierunek.”</p><footer>— właściciel serwera społecznościowego</footer></blockquote>
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <div class="glass card-lg">
+        <div class="section-head left">
+          <span class="eyebrow">Kontakt</span>
+          <h2>Napisz do nas i opowiedz o swoim serwerze</h2>
+        </div>
+        <form id="contactForm" class="form-grid">
+          <input name="name" placeholder="Imię" required />
+          <input name="email" type="email" placeholder="E-mail" required />
+          <input name="projectName" placeholder="Nazwa serwera / projektu" />
+          <input name="subject" placeholder="Temat" required />
+          <textarea name="message" placeholder="Wiadomość" required></textarea>
+          <button class="btn btn-primary" type="submit">Wyślij wiadomość</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Tornado Center</h3>
+        <p>Nowoczesna obsługa społeczności internetowych, aktywizacja użytkowników i rozwój community.</p>
+      </div>
+      <div>
+        <h4>Nawigacja</h4>
+        <a href="#about">O nas</a>
+        <a href="#plans">Pakiety</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Kontakt</a>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <a href="mailto:kontakt@tornado-center.pl">kontakt@tornado-center.pl</a>
+        <a href="#">Discord / social media</a>
+      </div>
+    </div>
+    <div class="copyright">© 2026 Tornado Center. Wszelkie prawa zastrzeżone.</div>
+  </footer>
+
+  <div id="toast"></div>
+
+  <div id="authModal" class="modal hidden">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-card glass">
+      <button class="modal-close" data-close-modal>×</button>
+      <div class="auth-tabs">
+        <button class="auth-tab active" data-auth-view="login">Logowanie</button>
+        <button class="auth-tab" data-auth-view="register">Rejestracja</button>
+      </div>
+      <form id="loginForm" class="auth-form">
+        <input name="email" type="email" placeholder="E-mail" required />
+        <input name="password" type="password" placeholder="Hasło" required />
+        <button class="btn btn-primary" type="submit">Zaloguj</button>
+        <small>Konto demo klienta: client@tornado.test / demo123</small>
+        <small>Konto demo admina: admin@tornado.test / demo123</small>
+        <small>Konto demo super admina: superadmin@tornado.test / demo123</small>
+      </form>
+      <form id="registerForm" class="auth-form hidden">
+        <input name="fullName" placeholder="Imię i nazwa" required />
+        <input name="email" type="email" placeholder="E-mail" required />
+        <input name="password" type="password" placeholder="Hasło min. 6 znaków" required />
+        <button class="btn btn-primary" type="submit">Załóż konto</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
